@@ -1,0 +1,23 @@
+This file tells Git which files and directories to ignore.
+Python-specific files
+pycache/
+*.pyc
+*.log
+
+Virtual environments
+It's a good practice to ignore your virtual environment folder.
+In this project, it might be named "venv" or "env".
+You can uncomment the relevant line if you create one.
+venv/
+env/
+Build artifacts
+dist/
+build/
+*.egg-info/
+
+VS Code specific files
+.vscode/
+
+Operating System generated files
+.DS_Store
+Thumbs.db
